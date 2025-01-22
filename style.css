@@ -1,0 +1,106 @@
+h1 {
+  font-weight: 800px;
+  font-size: 25px;
+  margin: 0 0 16px 0;
+  text-align: justify;
+}
+
+p {
+  color: #979797;
+  margin: 0 0 16px 0;
+  font-size: 20px;
+  text-align: justify;
+}
+
+section {
+  padding: 50px 120px;
+}
+
+/* Mengatur Photo.Studio */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 120px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+#header h1 {
+  margin: 0;
+}
+
+nav > a {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+nav > a:hover {
+  color: #ffc100;
+}
+
+/* mengatur tata letak more info & contact us */
+
+.btn {
+  background-color: #ffc100;
+  color: #fff;
+  padding: 8px;
+}
+
+.btn-alt {
+  background-color: #fff;
+  color: #000;
+  margin-right: 16px;
+  border: 2px solid #ffc100;
+}
+
+/* mengatur tata letak gambar 1 */
+#landing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+#landing > div {
+  width: 50%;
+}
+
+.landing p {
+  margin-bottom: 32px;
+}
+
+/* mengatur tata letak 2 */
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 0px;
+}
+
+#about > div {
+  width: 50%;
+}
+
+/* mengatur tata letak 100+, 300+, 500+ */
+#about-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  margin-top: 72px;
+}
+
+.about-stats-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* memberi garis tengah */
+.about-stats-item div {
+  width: 50px;
+  height: 10px;
+  background-color: #ffc100;
+  margin-bottom: 16px;
+}
